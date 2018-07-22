@@ -1,2 +1,2 @@
-import HomeScreen from './screen/HomeScreen';
-module.exports = HomeScreen;
+import Main from './screen/WelcomeScreen';
+module.exports = Main;

@@ -39,9 +39,8 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
@@ -52,5 +51,26 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Champagne &amp; Limousines Bold Italic.ttf</string>
+		<string>Champagne &amp; Limousines Bold.ttf</string>
+		<string>Champagne &amp; Limousines Italic.ttf</string>
+		<string>Champagne &amp; Limousines.ttf</string>
+		<string>Oswald-Bold.ttf</string>
+		<string>Oswald-BoldItalic.ttf</string>
+		<string>Oswald-Demi-BoldItalic.ttf</string>
+		<string>Oswald-DemiBold.ttf</string>
+		<string>Oswald-Extra-LightItalic.ttf</string>
+		<string>Oswald-ExtraLight.ttf</string>
+		<string>Oswald-Heavy.ttf</string>
+		<string>Oswald-HeavyItalic.ttf</string>
+		<string>Oswald-Light.ttf</string>
+		<string>Oswald-LightItalic.ttf</string>
+		<string>Oswald-Medium.ttf</string>
+		<string>Oswald-MediumItalic.ttf</string>
+		<string>Oswald-Regular.ttf</string>
+		<string>Oswald-Stencil.ttf</string>
+	</array>
 </dict>
 </plist>
