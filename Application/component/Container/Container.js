@@ -1,11 +1,15 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View,Image,ImageBackground } from 'react-native';
 import styles from './styles';
 
-const Container = ({children}) => {
+const Container = ({children,backgroundColor}) => {
+
 	return(
-		<View style={styles.container}>{children}</View>
+		<ImageBackground style={{flex: 1}} source={require('./images/background.png')}>{children}</ImageBackground>
 		);
+    
+
+
 }
 
 module.exports = Container;

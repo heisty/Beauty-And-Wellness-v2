@@ -3,8 +3,12 @@ import {
   StyleSheet,         // CSS-like styles
   Text,               // Renders text
   TouchableOpacity,   // Pressable container
-  View                // Container component
+  View,
+              // Container component
 } from 'react-native';
+import Container from '../component/Container';
+
+
 
 export default class Tabs extends Component {
 
@@ -17,9 +21,10 @@ export default class Tabs extends Component {
   // Pull children out of props passed from App component
   render({ children } = this.props) {
     return (
-      <View style={styles.container}>
+      <Container>
         {/* Tabs row */}
         <View style={styles.tabsContainer}>
+       
           {/* Pull props out of children, and pull title out of props */}
           {children.map(({ props: { title } }, index) =>
             <TouchableOpacity
@@ -45,7 +50,7 @@ export default class Tabs extends Component {
         <View style={styles.contentContainer}>
           {children[this.state.activeTab]}
         </View>
-      </View>
+      </Container>
     );
   }
 }
