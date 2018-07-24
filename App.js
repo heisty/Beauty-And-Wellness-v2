@@ -1,2 +1,2 @@
-import Application from './Application/index';
-module.exports = Application;
+import Testing from './Application/index';
+module.exports = Testing;
